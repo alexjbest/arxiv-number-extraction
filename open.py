@@ -3,7 +3,10 @@ import tarfile
 import re
 import os
 
+import sys
 DIR = "2102"
+if len(sys.argv) > 1:
+    DIR = sys.argv[1]
 # functon to actually read a tex file
 def reader(filename, ar):
     printed = False
