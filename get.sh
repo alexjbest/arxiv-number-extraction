@@ -1,3 +1,4 @@
 #!/bin/bash
 
-aws s3 cp arxiv/src/arXiv_src_9902_001.tar ./arXiv_src_9902_001.tar --request-payer requester
+aws s3 cp s3://arxiv/src/$1 ./$1 --request-payer requester
+tar xvf $1
