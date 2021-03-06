@@ -23,6 +23,6 @@ Eg run
 pick a file you want like `arXiv_src_1801_012.tar` and run
 ```
 ./get.sh arXiv_src_1801_012.tar
-python3 open.pu 1801
+python3 open.py 1801
 ```
 
